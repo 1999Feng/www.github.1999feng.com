@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="1.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.min.css">
+    <script  type="text/javascript" src="./1.js">     
+    </script>
+</head>
+
+<body>
+    <div class="search">
+        <div class="row" >
+            <input type="text" class="search-1" placeholder="请输入查询的城市">
+            <button type="button" class="btn btn-info qifei"   >搜 索</button>  
+        </div>
+        <table id="tb">
+            <thead>
+                <tr>
+                    <td>排名</td> <td>城市</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>显示排名</td>  <td>显示城市</td>
+                </tr>
+                <tr>
+                    <td>1</td> <td>深圳</td>
+                </tr>
+                <tr>
+                    <td>2</td> <td>香港</td>
+                </tr>
+                <tr>
+                    <td>3</td> <td>上海</td>
+                </tr>
+                <tr>
+                    <td>4</td> <td>北京</td>
+                </tr>
+                <tr>
+                    <td>5</td> <td>广州</td>
+                </tr>
+                <tr><td>6</td> <td>苏州</td></tr>
+                <tr><td>7</td> <td>台北</td></tr>
+                <tr><td>8</td> <td>南京</td></tr>
+                <tr><td>9</td> <td>武汉</td></tr>
+                <tr><td>10</td> <td>无锡</td></tr>
+                <tr><td>11</td> <td>杭州</td></tr>
+                <tr><td>12</td> <td>成都</td></tr>
+                <tr><td>13</td> <td>宁波</td></tr>
+                <tr><td>14</td> <td>佛山</td></tr>
+                <tr><td>15</td> <td>澳门</td></tr>
+                <tr><td>16</td> <td>长沙</td></tr>
+                <tr><td>17</td> <td>青岛</td></tr>
+                <tr><td>18</td>  <td>常州</td></tr>
+                <tr><td>19</td><td>东莞</td></tr>
+                <tr><td>20</td> <td>郑州</td></tr>
+                <tr><td>21</td> <td>合肥</td></tr>
+                 <tr><td>22</td> <td>厦门</td></tr>
+                 <tr><td>23</td> <td>高雄</td></tr>
+                 <tr><td>24</td> <td>珠海</td></tr>
+                 <tr><td>25</td> <td>南通</td></tr>
+                 <tr><td>26</td> <td>福州</td></tr>
+                 <tr><td>27</td> <td>泉州</td></tr>
+                 <tr><td>28</td> <td>西安</td></tr>
+                 <tr><td>29</td> <td>济南</td></tr>
+                 <tr><td>30</td>  <td>重庆</td></tr>
+                 <tr><td>31</td> <td>台中</td></tr>
+                 <tr><td>32</td><td>扬州</td></tr>
+                 <tr><td>33</td> <td>烟台</td></tr>
+                 <tr><td>34</td> <td>泰州</td></tr>
+                 <tr><td>35</td>  <td>镇江</td></tr>
+                 <tr><td>36</td><td>中山</td></tr>
+                 <tr><td>37</td> <td>新竹</td></tr>
+                 <tr><td>38</td> <td>嘉兴</td></tr>
+                 <tr><td>39</td> <td>徐州</td></tr>
+                 <tr><td>40</td> <td>南昌</td></tr>
+                 <tr><td>41</td> <td>台南</td></tr>
+                 <tr><td>42</td> <td>绍兴</td></tr>
+                 <tr><td>43</td> <td>台州</td></tr>
+                 <tr><td>44</td> <td>芜湖</td></tr>
+                 <tr><td>45</td> <td>太原</td></tr>
+                 <tr><td>46</td> <td>天津</td></tr>
+                 <tr><td>47</td> <td>舟山</td></tr>
+                 <tr><td>48</td> <td>东营</td></tr>
+                 <tr><td>49</td> <td>盐城</td></tr>
+                 <tr><td>50</td> <td>贵阳</td></tr>
+                 <tr><td>51</td> <td>惠州</td></tr>
+                 <tr><td>52</td> <td>廊坊</td></tr>
+                 <tr><td>53</td> <td>威海</td></tr>
+                 <tr><td>54</td> <td>济宁</td></tr>
+                 <tr><td>55</td> <td>唐山</td></tr>
+                 <tr><td>56</td> <td>淄博</td></tr>
+                 <tr><td>57</td> <td>潍坊</td></tr>
+                 <tr><td>58</td> <td>昆明</td></tr>
+                 <tr><td>59</td> <td>湖州</td></tr>
+                 <tr><td>60</td> <td>长春</td></tr>
+                 <tr><td>61</td> <td>莆田</td></tr>
+                 <tr><td>62</td> <td>温州</td></tr>
+                 <tr><td>63</td> <td>大连</td></tr>
+                 <tr><td>64</td> <td>洛阳</td></tr>
+                 <tr><td>65</td> <td>宜昌</td></tr>
+                 <tr><td>66</td> <td>淮安</td></tr>
+                 <tr><td>67</td> <td>鄂州</td></tr>
+                 <tr><td>68</td> <td>襄阳</td></tr>
+                 <tr><td>69</td> <td>乌鲁木齐</td></tr>
+                 <tr><td>70</td> <td>岳阳</td></tr>
+                 <tr><td>71</td> <td>漳州</td></tr>
+                 <tr><td>72</td> <td>常德</td></tr>
+                 <tr><td>73</td> <td>许昌</td></tr>
+                 <tr><td>74</td> <td>日照</td></tr>
+                 <tr><td>75</td> <td>金华</td></tr>
+                 <tr><td>76</td> <td>马鞍山</td></tr>
+                 <tr><td>77</td> <td>连云港</td></tr>
+                 <tr><td>78</td> <td>汕头</td></tr>
+                 <tr><td>79</td> <td>江门</td></tr>
+                 <tr><td>80</td> <td>海口</td></tr>
+                 <tr><td>81</td> <td>焦作</td></tr>
+                 <tr><td>82</td> <td>株洲</td></tr>
+                 <tr><td>83</td> <td>湘潭</td></tr>
+                 <tr><td>84</td> <td>临沂</td></tr>
+                 <tr><td>85</td> <td>黄石</td></tr>
+                 <tr><td>86</td> <td>南宁</td></tr>
+                 <tr><td>87</td> <td>沈阳</td></tr>
+                 <tr><td>88</td> <td>石家庄</td></tr>
+                 <tr><td>89</td> <td>兰州</td></tr>
+                 <tr><td>90</td> <td>榆林</td></tr>
+                 <tr><td>91</td> <td>宿迁</td></tr>
+                 <tr><td>92</td> <td>三明</td></tr>
+                 <tr><td>93</td> <td>枣庄</td></tr>
+                 <tr><td>94</td> <td>克拉玛依</td></tr>
+                 <tr><td>95</td> <td>铜陵</td></tr>
+                 <tr><td>96</td> <td>衡阳</td></tr>
+                 <tr><td>97</td> <td>遵义</td></tr>
+                 <tr><td>98</td> <td>德州</td></tr>
+                 <tr><td>99</td> <td>鹰潭</td></tr>
+                 <tr><td>100</td> <td>龙岩</td></tr>
+                 <tr><td>101</td> <td>呼和浩特</td></tr>
+                 <tr><td>102</td> <td>德阳</td></tr>
+                 <tr><td>103</td> <td>盘锦</td></tr>
+                 <tr><td>104</td> <td>咸阳</td></tr>
+                 <tr><td>105</td> <td>濮阳</td></tr>
+                 <tr><td>106</td> <td>银川</td></tr>
+                 <tr><td>107</td> <td>茂名</td></tr>
+                 <tr><td>108</td> <td>宁德</td></tr>
+                 <tr><td>109</td> <td>柳州</td></tr>
+                 <tr><td>110</td> <td>荆门</td></tr>
+                 <tr><td>111</td> <td>滨州</td></tr>
+                 <tr><td>112</td> <td>漯河</td></tr>
+                 <tr><td>113</td> <td>揭阳</td></tr>
+                 <tr><td>114</td> <td>北海</td></tr>
+                 <tr><td>115</td> <td>聊城</td></tr>
+                 <tr><td>116</td> <td>安阳</td></tr>
+                 <tr><td>117</td> <td>新余</td></tr>
+                 <tr><td>118</td> <td>郴州</td></tr>
+                 <tr><td>119</td> <td>自贡</td></tr>
+                 <tr><td>120</td> <td>淮北</td></tr>
+                 <tr><td>121</td> <td>六盘水</td></tr>
+                 <tr><td>122</td> <td>衢州</td></tr>
+                 <tr><td>123</td> <td>鹤壁</td></tr>
+                 <tr><td>124</td> <td>营口</td></tr>
+                 <tr><td>125</td> <td>平顶山</td></tr>
+                 <tr><td>126</td> <td>三亚</td></tr>
+                 <tr><td>127</td> <td>秦皇岛</td></tr>
+                 <tr><td>128</td> <td>宝鸡</td></tr>
+                 <tr><td>129</td> <td>乌海</td></tr>
+                 <tr><td>130</td> <td>宜宾</td></tr>
+                 <tr><td>131</td> <td>菏泽</td></tr>
+                 <tr><td>132</td> <td>西宁</td></tr>
+                 <tr><td>133</td> <td>肇庆</td></tr>
+                 <tr><td>134</td> <td>沧州</td></tr>
+                 <tr><td>135</td> <td>绵阳</td></tr>
+                 <tr><td>136</td> <td>玉溪</td></tr>
+                 <tr><td>137</td> <td>蚌埠</td></tr>
+                 <tr><td>138</td> <td>泰安</td></tr>
+                 <tr><td>139</td> <td>九江</td></tr>
+                 <tr><td>140</td> <td>新乡</td></tr>
+                 <tr><td>141</td> <td>哈尔滨</td></tr>
+                 <tr><td>142</td> <td>荆州</td></tr>
+                 <tr><td>143</td> <td>开封</td></tr>
+                 <tr><td>144</td> <td>衡水</td></tr>
+                 <tr><td>145</td> <td>攀枝花</td></tr>
+                 <tr><td>146</td> <td>赣州</td></tr>
+                 <tr><td>147</td> <td>阳江</td></tr>
+                 <tr><td>148</td> <td>益阳</td></tr>
+                 <tr><td>149</td> <td>泸州</td></tr>
+                 <tr><td>150</td> <td>潮州</td></tr>
+                 <tr><td>151</td> <td>湛江</td></tr>
+                 <tr><td>152</td> <td>黄冈</td></tr>
+                 <tr><td>153</td> <td>十堰</td></tr>
+                 <tr><td>154</td> <td>包头</td></tr>
+                 <tr><td>155</td> <td>晋城</td></tr>
+                 <tr><td>156</td> <td>乐山</td></tr>
+                 <tr><td>157</td> <td>三门峡</td></tr>
+                 <tr><td>158</td> <td>萍乡</td></tr>
+                 <tr><td>159</td> <td>周口</td></tr>
+                 <tr><td>160</td> <td>南阳</td></tr>
+                 <tr><td>161</td> <td>咸宁</td></tr>
+                 <tr><td>162</td> <td>嘉峪关</td></tr>
+                 <tr><td>163</td> <td>上饶</td></tr>
+                 <tr><td>164</td> <td>石嘴山</td></tr>
+                 <tr><td>165</td> <td>大庆</td></tr>
+                 <tr><td>166</td> <td>眉山</td></tr>
+                 <tr><td>167</td> <td>丽山</td></tr>
+                 <tr><td>168</td> <td>驻马店</td></tr>
+                 <tr><td>169</td> <td>宿州</td></tr>
+                 <tr><td>170</td> <td>信阳</td></tr>
+                 <tr><td>171</td> <td>阳泉</td></tr>
+                 <tr><td>172</td> <td>邯郸</td></tr>
+                 <tr><td>173</td> <td>鄂尔多斯</td></tr>
+                 <tr><td>174</td> <td>保定</td></tr>
+                 <tr><td>175</td> <td>孝感</td></tr>
+                 <tr><td>176</td> <td>长治</td></tr>
+                 <tr><td>177</td> <td>南充</td></tr>
+                 <tr><td>178</td> <td>鞍山</td></tr>
+                 <tr><td>179</td> <td>遂宁</td></tr>
+                 <tr><td>180</td> <td>广安</td></tr>
+                 <tr><td>181</td> <td>汕尾</td></tr>
+                 <tr><td>182</td> <td>商丘</td></tr>
+                 <tr><td>183</td> <td>渭南</td></tr>
+                 <tr><td>184</td> <td>南平</td></tr>
+                 <tr><td>185</td> <td>钦州</td></tr>
+                 <tr><td>186</td> <td>邢台</td></tr>
+                 <tr><td>187</td> <td>滁州</td></tr>
+                 <tr><td>188</td> <td>韶关</td></tr>
+                 <tr><td>189</td> <td>淮南</td></tr>
+                 <tr><td>190</td> <td>锦州</td></tr>
+                 <tr><td>191</td> <td>梧州</td></tr>
+                 <tr><td>192</td> <td>防城港</td></tr>
+                 <tr><td>193</td> <td>玉林</td></tr>
+                 <tr><td>194</td> <td>娄底</td></tr>
+                 <tr><td>195</td> <td>邵阳</td></tr>
+                 <tr><td>196</td> <td>内江</td></tr>
+                 <tr><td>197</td> <td>安庆</td></tr>
+                 <tr><td>198</td> <td>延安</td></tr>
+                 <tr><td>199</td> <td>景德镇</td></tr>
+                 <tr><td>200</td> <td>大同</td></tr>
+                 <tr><td>201</td> <td>宜春</td></tr>
+                 <tr><td>202</td> <td>情远</td></tr>
+                 <tr><td>203</td> <td>朔州</td></tr>
+                 <tr><td>204</td> <td>宣城</td></tr>
+                 <tr><td>205</td> <td>永州</td></tr>
+                 <tr><td>206</td> <td>汉中</td></tr>
+                 <tr><td>207</td> <td>抚顺</td></tr>
+                 <tr><td>208</td> <td>桂林</td></tr>
+                 <tr><td>209</td> <td>吉林</td></tr>
+                 <tr><td>210</td> <td>吉安</td></tr>
+                 <tr><td>211</td> <td>辽阳</td></tr>
+                 <tr><td>212</td> <td>黄山</td></tr>
+                 <tr><td>213</td> <td>资阳</td></tr>
+                 <tr><td>214</td> <td>运城</td></tr>
+                 <tr><td>215</td> <td>池州</td></tr>
+                 <tr><td>216</td> <td>阜阳</td></tr>
+                 <tr><td>217</td> <td>随州</td></tr>
+                 <tr><td>218</td> <td>晋中</td></tr>
+                 <tr><td>219</td> <td>安顺</td></tr>
+                 <tr><td>220</td> <td>本溪</td></tr>
+                 <tr><td>221</td> <td>百色</td></tr>
+                 <tr><td>222</td> <td>亳州</td></tr>
+                 <tr><td>223</td> <td>辽源</td></tr>
+                 <tr><td>224</td> <td>梅州</td></tr>
+                 <tr><td>225</td> <td>达州</td></tr>
+                 <tr><td>226</td> <td>贵港</td></tr>
+                 <tr><td>227</td> <td>张家口</td></tr>
+                 <tr><td>228</td> <td>怀化</td></tr>
+                 <tr><td>229</td> <td>抚州</td></tr>
+                 <tr><td>230</td> <td>崇左</td></tr>
+                 <tr><td>231</td> <td>承德</td></tr>
+                 <tr><td>232</td> <td>曲靖</td></tr>
+                 <tr><td>233</td> <td>云浮</td></tr>
+                 <tr><td>234</td> <td>松原</td></tr>
+                 <tr><td>235</td> <td>佳木斯</td></tr>
+                 <tr><td>236</td> <td>安康</td></tr>
+                 <tr><td>237</td> <td>六安</td></tr>
+                 <tr><td>238</td> <td>吕梁</td></tr>
+                 <tr><td>239</td> <td>广元</td></tr>
+                 <tr><td>240</td> <td>临汾</td></tr>
+                 <tr><td>241</td> <td>白山</td></tr>
+                 <tr><td>242</td> <td>齐齐哈尔</td></tr>
+                 <tr><td>243</td> <td>铜川</td></tr>
+                 <tr><td>244</td> <td>河源</td></tr>
+                 <tr><td>245</td> <td>牡丹江</td></tr>
+                 <tr><td>246</td> <td>金昌</td></tr>
+                 <tr><td>247</td> <td>张家界</td></tr>
+                 <tr><td>248</td> <td>雅安</td></tr>
+                 <tr><td>249</td> <td>通化</td></tr>
+                 <tr><td>250</td> <td>来宾</td></tr>
+                 <tr><td>251</td> <td>葫芦岛</td></tr>
+                 <tr><td>252</td> <td>绥化</td></tr>
+                 <tr><td>253</td> <td>贺州</td></tr>
+                 <tr><td>254</td> <td>昭通</td></tr>
+                 <tr><td>255</td> <td>天水</td></tr>
+                 <tr><td>256</td> <td>商洛</td></tr>
+                 <tr><td>257</td> <td>吴忠</td></tr>
+                 <tr><td>258</td> <td>忻州</td></tr>
+                 <tr><td>259</td> <td>河池</td></tr>
+                 <tr><td>260</td> <td>丹东</td></tr>
+                 <tr><td>261</td> <td>朝阳</td></tr>
+                 <tr><td>262</td> <td>保山</td></tr>
+                 <tr><td>263</td> <td>赤峰</td></tr>
+                 <tr><td>264</td> <td>铁岭</td></tr>
+                 <tr><td>265</td> <td>七台河</td></tr>
+                 <tr><td>266</td> <td>中卫</td></tr>
+                 <tr><td>267</td> <td>普洱</td></tr>
+                 <tr><td>268</td> <td>临沧</td></tr>
+                 <tr><td>269</td> <td>通辽</td></tr>
+                 <tr><td>270</td> <td>丽江</td></tr>
+                 <tr><td>271</td> <td>四平</td></tr>
+                 <tr><td>272</td> <td>庆阳</td></tr>
+                 <tr><td>273</td> <td>巴中</td></tr>
+                 <tr><td>274</td> <td>巴彦淖尔</td></tr>
+                 <tr><td>275</td> <td>阜新</td></tr>
+                 <tr><td>276</td> <td>平凉</td></tr>
+                 <tr><td>277</td> <td>白城</td></tr>
+                 <tr><td>278</td> <td>乌兰察尔</td></tr>
+                 <tr><td>279</td> <td>白银</td></tr>
+                 <tr><td>280</td> <td>固原</td></tr>
+                 <tr><td>281</td> <td>双鸭山</td></tr>
+                 <tr><td>282</td> <td>呼伦贝尔</td></tr>
+                 <tr><td>283</td> <td>武威</td></tr>
+                 <tr><td>284</td> <td>鸡西</td></tr>
+                 <tr><td>285</td> <td>张掖</td></tr>
+                 <tr><td>286</td> <td>黑河</td></tr>
+                 <tr><td>287</td> <td>鹤岗</td></tr>
+                 <tr><td>288</td> <td>定西</td></tr>
+                 <tr><td>289</td> <td>陇南</td></tr>
+                 <tr><td>290</td> <td>酒泉</td></tr>
+                 <tr><td>291</td> <td>伊春</td></tr>
+                 
+
+
+                
+
+
+                 
+            </tbody>
+        </table>
+    </div>
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+ <script>
+   
+    var app=new Vue({
+       
+        el:'.search',
+        data:{
+            city:"",
+            arr:[],
+            a:""
+        },
+        methods:{
+         searchCity:function(){
+            var that = this;
+            axios.get('1.html'+this.city) //域名接口不能用了 淦！ 原来是我网站手写打错了 混进了写中文字符 在引号内系统又检测不出 -_-||
+            .then(function(response){
+                // console.log(response);
+                that.weatherList=response.data.data.forecast;
+                console.log(that.weatherList);
+            })
+            .catch(function(err){
+             console.log("网站错误");
+            })
+           },
+          }
+           
+      
+    })
+</script> -->
+</body>
+     
+</html>

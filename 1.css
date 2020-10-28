@@ -1,0 +1,39 @@
+body { max-width: 540px; min-width: 320px; 
+  margin: 0 auto; 
+  font-family:"站酷文艺体";
+  src: url(./bootstrap/fonts/站酷文艺体.ttf);
+  color: #000; background: #f2f2f2; overflow-x: hidden; -webkit-tap-highlight-color: transparent; }
+.row{
+  display: flex;
+  width: 100%;
+  max-width: 530px;
+   min-width: 350px;
+}
+.search-1{
+    flex: 6;
+    height: 60px;
+    border: 1px solid #333333;
+    color:rgba(0, 0, 0, 0.3);
+}
+.qifei{
+    flex: 1;
+    height: 66px;
+    margin-left: -6px;
+    margin-top: -2px;
+    width: 56px;
+}
+table {
+ text-align: center;
+  width: 100%;
+  max-width: 530px;
+  min-width: 350px;
+}
+
+td {
+  height: 60px;
+  border: 0.5px solid #334455;
+  padding: 1px;
+}
+tbody tr:nth-child(1){
+  background-color: pink;
+}
